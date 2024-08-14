@@ -1,0 +1,51 @@
+body {
+    background-color:#222!important;
+    /* color: white; */
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #222;
+    font-family: sans-serif;
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+.button {
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.equal {
+    background-color: #e74c3c;
+}
+
+.equal:hover {
+    background-color: #c0392b;
+}
+
+.display {
+    grid-column: span 4;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+}
